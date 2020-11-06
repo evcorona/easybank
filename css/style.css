@@ -1,41 +1,53 @@
+.nav-item:hover{border-bottom: 4px solid #33D067;}
+
+.btn-primary{
+        background: linear-gradient(to right,#33D067,#28B0C7);
+        color: white;
+        border: none;
+    }
+    
+.btn-primary:hover{filter: brightness(110%);}
+
 .mybackground{
     background-image: url('/images/bg-intro-mobile.svg');
     background-repeat: no-repeat;
     background-position: top right;
 }
 
-.btn-primary{
-    background: linear-gradient(to right,#33D067,#28B0C7);
-    color: white;
-    border: none;
+.container-fluid{ 
+    //background-color: #fafafa;
+    //background-color: palegreen;}
+
+.sectiontwo{
+    background-color: lightgrey;
+   // background-color: #F4F5F7;
 }
 
-footer{
-    background-color: #2D314E;
+h1,h2,h3,h4,h5{color:#2F324B;}
+
+p{color:#A4A4A6;}
+
+h1,h2{font-size: xx-large;}
+
+h3{font-size: large;}
+
+.card-text{font-size: small;}
+
+.card-title:hover{color:#3ABC8D;}
+
+footer{background-color: #2D314E;}
+
+.logo-footer{filter: invert(1);}
+
+.footer-items:hover{color:#3ABC8D;}
+
+.footer-icons:hover{filter: hue-rotate(157deg) saturate(53%) brightness(50%);}
+
+@media (min-width: 768px){
+    .mybackground{background-image: url('/images/bg-intro-desktop.svg');}
+    h1{font-size: 4em;}
+    h2{font-size: 3em;}
+    h3{font-size: 1.5em;}
+    p{font-size: 1.1em;}
 }
 
-.logo-footer{
-    filter: invert(1);
-}
-
-h1,h2,h3,h4,h5{
-    color:#2F324B;
-}
-
-p{
-    color:#A4A4A6;
-}
-
-h1{font-size: xx-large;}
-
-h2{
-    font-size: large;
-}
-
-.card-text{
-    font-size: small;
-}
-
-.nav-item:hover{
-background-color: lightgray;
-}
