@@ -1,4 +1,6 @@
-.nav-item:hover{border-bottom: 4px solid #33D067;}
+.nav-item:hover{
+    border-bottom: 4px solid #33D067;
+    color: black;}
 
 .btn-primary{
         background: linear-gradient(to right,#33D067,#28B0C7);
