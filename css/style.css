@@ -15,17 +15,15 @@
 }
 
 .container-fluid{ 
-    //background-color: #fafafa;
+    background-color: #fafafa;
     //background-color: palegreen;}
 
 .sectiontwo{
-    background-color: lightgrey;
-   // background-color: #F4F5F7;
+    //background-color: lightgrey;
+    background-color: #F4F5F7;
 }
 
 h1,h2,h3,h4,h5{color:#2F324B;}
-
-p{color:#A4A4A6;}
 
 h1,h2{font-size: xx-large;}
 
