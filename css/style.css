@@ -1,0 +1,41 @@
+.mybackground{
+    background-image: url('/images/bg-intro-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.btn-primary{
+    background: linear-gradient(to right,#33D067,#28B0C7);
+    color: white;
+    border: none;
+}
+
+footer{
+    background-color: #2D314E;
+}
+
+.logo-footer{
+    filter: invert(1);
+}
+
+h1,h2,h3,h4,h5{
+    color:#2F324B;
+}
+
+p{
+    color:#A4A4A6;
+}
+
+h1{font-size: xx-large;}
+
+h2{
+    font-size: large;
+}
+
+.card-text{
+    font-size: small;
+}
+
+.nav-item:hover{
+background-color: lightgray;
+}
