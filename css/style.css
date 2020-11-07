@@ -1,4 +1,10 @@
-.nav-item:hover{
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav-item:hover{
     border-bottom: 4px solid #33D067;
     color: black;}
 
@@ -13,7 +19,6 @@
 .mybackground{
     background-image: url('/images/bg-intro-mobile.svg');
     background-repeat: no-repeat;
-    background-position: top right;
 }
 
 .container-fluid{ 
@@ -44,7 +49,18 @@ h3{font-size: large;}
 .footer-icons:hover{filter: hue-rotate(157deg) saturate(53%) brightness(50%);}
 
 @media (min-width: 768px){
-    .mybackground{background-image: url('/images/bg-intro-desktop.svg');}
+    .mybackground{
+        background-image: url('/images/bg-intro-desktop.svg');
+        background-position: 100% 0%;
+        background-size: 50%;
+    }
+
+    .mockup{
+        position: absolute;
+        top: -23%;
+        right: -24%;
+    }   
+
     h1{font-size: 4em;}
     h2{font-size: 3em;}
     h3{font-size: 1.5em;}
