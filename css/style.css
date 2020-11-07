@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-nav-item:hover{
+.nav-item:hover{
     border-bottom: 4px solid #33D067;
     color: black;}
 
@@ -56,14 +56,21 @@ h3{font-size: large;}
     }
 
     .mockup{
-        position: absolute;
         top: -23%;
-        right: -24%;
+        right: 0%;
     }   
 
     h1{font-size: 4em;}
     h2{font-size: 3em;}
     h3{font-size: 1.5em;}
     p{font-size: 1.1em;}
+
 }
 
+
+/*.mockup2{
+    background-image: url('/images/image-mockups.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: c;
+}*/
